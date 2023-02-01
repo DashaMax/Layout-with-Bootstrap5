@@ -1,0 +1,63 @@
+header, footer{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: -1;
+}
+
+header{
+    background-image: url(https://pazlyigra.ru/uploads/posts/2020-01/1578308065_013_desktop-wallpapers-4k-ultra-hd196.jpg);
+}
+
+.background{
+    padding: 270px 0;
+    background-color: #000000bb;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+main .block{
+    padding: 90px 0;
+}
+
+main .block h4{
+    color: rgb(130, 30, 30);
+    margin-bottom: 0;
+}
+
+footer{
+    background-image: url(https://itcrumbs.ru/wp-content/uploads/2021/04/oshibka-v-kode-pochtovoj-programmy-scaled.jpeg);
+}
+
+footer .background{
+    padding: 200px 0;
+}
+
+footer h2{
+    font-size: 40px;
+}
+
+
+
+/* Адаптация */
+
+@media(max-width: 600px){
+    header h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 420px){
+    header h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 370px){
+    footer h2{
+        font-size: 35px;
+    }
+}
+
